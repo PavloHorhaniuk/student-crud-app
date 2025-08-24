@@ -1,0 +1,23 @@
+{
+  "name": "student-crud-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://PavloHorhaniuk.github.io/student-crud-app",
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "vite-plugin-handlebars": "^2.0.0"
+  }
+}
