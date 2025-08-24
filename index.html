@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+     <h1>Список студентів</h1>
+
+  <!-- Кнопка додавання -->
+  <button id="add-student-btn">Додати студента</button>
+
+  <!-- Форма додавання (спочатку прихована) -->
+  <form id="student-form" style="display:none;">
+    <input type="text" id="firstName" placeholder="Ім'я" required>
+    <input type="text" id="lastName" placeholder="Прізвище" required>
+    <input type="number" id="age" placeholder="Вік" required>
+    <input type="text" id="course" placeholder="Курс" required>
+    <input type="text" id="faculty" placeholder="Факультет" required>
+    <button type="submit">Зберегти</button>
+    <button type="button" id="cancel-add">Скасувати</button>
+  </form>
+
+  <ul id="students-list"></ul>
+
+  <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.student-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  list-style: none;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.student-card button {
+  margin-right: 5px;
+}
