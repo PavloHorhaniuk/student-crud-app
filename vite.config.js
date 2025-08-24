@@ -1,10 +1,5 @@
-import { defineConfig } from 'vite'
-import handlebars from 'vite-plugin-handlebars'
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [
-    handlebars({
-      partialDirectory: 'templates', // тут будуть шаблони .hbs
-    }),
-  ],
-})
+  base: "/student-crud-app/", // 👈 ОБОВʼЯЗКОВО назва вашого репозиторію
+});
